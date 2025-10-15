@@ -14,7 +14,6 @@ function saluta(saluto,nome){
 //saluta("Buongiorno","prof");
 
 
-
 function giveMeADado(){
     let valoreRandomZeroUno = Math.random();
     let valoreZeroCento = valoreRandomZeroUno * 100;
@@ -23,12 +22,13 @@ function giveMeADado(){
     divRisultato.textContent = valoreArrotond;
 }
 
-
-
-
-
-
-
+function giveMeADadoZeroDieci(){
+    let valoreRandomZeroUno = Math.random();
+    let valoreZeroCento = valoreRandomZeroUno * 10;
+    let valoreArrotond = Math.floor(valoreZeroCento);
+    let divRisultatoZeroDieci = document.getElementById("risultatoZeroDieci");
+    divRisultatoZeroDieci.textContent = valoreArrotond;
+}
 
 let raggio = 50;
 

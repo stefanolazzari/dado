@@ -9,11 +9,12 @@
     <button onclick="alert('Ciao 2A')">clicca qua</button>
     
     <button onclick="saluta('Ciao','Pippo')">Saluta Pippo</button>
-    <button onclick="giveMeADado()">Genera random</button>
+    <button onclick="giveMeADado()">Genera random 0 - 99</button>
     <button onclick="alert(Math.PI)">PI greco</button>
-
+    <button onclick="giveMeADadoZeroDieci()">Genera random 0 - 9</button>
     <div id="risultato">num</div>
 
+    <div id="risultatoZeroDieci">num</div>
     <script src="main.js"></script>
     
 </body>
@@ -25,9 +26,9 @@
         padding: 2%;
     }
 
-    #risultato{
+    #risultato , #risultatoZeroDieci{
         font-size: xx-large;
-        background-color: rgb(180, 180, 180);
+        background-color: rgb(180, 180, 180); 
         margin-left: 40%;
         margin-right: 40%;
         margin-top: 10%;
